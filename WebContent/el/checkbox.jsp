@@ -1,6 +1,6 @@
-<%@ page contentType="text/html; charset=EUC-KR"%>
+<%@ page contentType="text/html; charset=UTF-8"%>
 <%
-		request.setCharacterEncoding("EUC-KR");
+		request.setCharacterEncoding("UTF-8");
 %>
 
 name : ${param.name}<br/>
@@ -10,4 +10,4 @@ hobby3 : ${paramValues.hobby[2]}<br/>
 hobby4 : ${paramValues.hobby[3]}<br/>
 hobby5 : ${paramValues.hobby[4]}<br/>
 
-<!-- checkbox °ªÀ» ¹è¿­·Î ¹Þ´Â Å¬·¡½º : paramValues -->
+<!-- checkbox ê°’ì„ ë°°ì—´ë¡œ ë°›ëŠ” í´ëž˜ìŠ¤ : paramValues -->

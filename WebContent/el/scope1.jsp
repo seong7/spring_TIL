@@ -1,10 +1,10 @@
-<%@ page contentType="text/html; charset=EUC-KR"%>
+<%@ page contentType="text/html; charset=UTF-8"%>
 <%
 	int sum = 0;
 	for(int i=1; i<11; i++){
 		sum += i;
 	}
-	request.setAttribute("sum", sum); // auto-boxing µÇ¾î ÀúÀåµÊ (int sum -> Integer sum )
+	request.setAttribute("sum", sum); // auto-boxing ë˜ì–´ ì €ìž¥ë¨ (int sum -> Integer sum )
 		
 %>
 

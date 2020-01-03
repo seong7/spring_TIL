@@ -1,8 +1,8 @@
-<%@ page contentType="text/html; charset=EUC-KR"%>
+<%@ page contentType="text/html; charset=UTF-8"%>
 <%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core" %>
 <%
 		String str1[] = {"Java", "JSP", "Spring", "Android"};
-		String str2 = "Æ®¿ÍÀÌ½º, AOA; ºí·¢ÇÎÅ©, ·¹µåº§ºª";
+		String str2 = "íŠ¸ì™€ì´ìŠ¤, AOA; ë¸”ëž™í•‘í¬, ë ˆë“œë²¨ë²³";
 %>
 <h2>Core Tags3</h2>
 
@@ -20,6 +20,6 @@
 
 <!--  forTokens  -->
 <c:set var="s" value="<%=str2 %>"/>
-<c:forTokens var="st" items="${s}" delims=",;">  <!--  delims ¿©·¯°³ ¾µ¶§ ±×³É ³ª¿­ÇÏ¸é µÊ -->
+<c:forTokens var="st" items="${s}" delims=",;">  <!--  delims ì—¬ëŸ¬ê°œ ì“¸ë•Œ ê·¸ëƒ¥ ë‚˜ì—´í•˜ë©´ ë¨ -->
 	<b>${st}</b>&nbsp;
 </c:forTokens>

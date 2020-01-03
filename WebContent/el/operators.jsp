@@ -1,12 +1,12 @@
 <!--  operators.jsp -->
-<%@ page contentType="text/html; charset=EUC-KR"%>
+<%@ page contentType="text/html; charset=UTF-8"%>
 <%
 		pageContext.setAttribute("J", 31);
 		pageContext.setAttribute("S", 8);
 		pageContext.setAttribute("P", 22);
 %>
 <b> J= ${J}, S= ${S}, P= ${P}</b>
-<b>»ê¼ú ¿¬»êÀÚ</b><hr width="250" align="left"/>
+<b>ì‚°ìˆ  ì—°ì‚°ì</b><hr width="250" align="left"/>
 ${J+S}
 &#36{J+S} = ${J+S}<br/>
 <!-- &#36   =   $  -->
@@ -15,18 +15,18 @@ ${J+S}
 &#36;{J/S} = ${J/S}<br/>
 &#36;{J%S} = ${J%S}<p/>
 
-<b>ºñ±³ ¿¬»êÀÚ</b><hr width="250" align="left"/>
+<b>ë¹„êµ ì—°ì‚°ì</b><hr width="250" align="left"/>
 &#36;{J < S} = ${J lt S}<br/> <!-- lt : less than -->
 &#36;{J > S} = ${J gt S}<br/><!-- gt : greater than -->
 &#36;{S <= P} = ${S le P}<br/><!-- le : less equal -->
 &#36;{S >= P} = ${S ge P}<br/>
 &#36;{(10*10)==100} = ${(10*10) eq 100}<br/>
 &#36;{(10*10)!=100} = ${(10*10) ne 100}<p/>
- <!-- less / greater ÀÇ ÁÖÃ¼´Â ¿ŞÂÊÀÇ º¯¼öÀÓ -->
+ <!-- less / greater ì˜ ì£¼ì²´ëŠ” ì™¼ìª½ì˜ ë³€ìˆ˜ì„ -->
 
 
-<b>³í¸® ¹× Á¶°Ç ¿¬»êÀÚ</b><hr width="250" align="left"/>
+<b>ë…¼ë¦¬ ë° ì¡°ê±´ ì—°ì‚°ì</b><hr width="250" align="left"/>
 &#36;{J > P && P < S} : ${J>P and P<S}<br/>
 &#36;{J > P || P < S} : ${J>P or P<S}<br/>
 &#36;{!(J == P)} : ${not(J==P)}<br/>
-&#36;{(J == S)?"°°´Ù":"´Ù¸£´Ù"} : ${(J == S)?"°°´Ù":"´Ù¸£´Ù"}<br/>
+&#36;{(J == S)?"ê°™ë‹¤":"ë‹¤ë¥´ë‹¤"} : ${(J == S)?"ê°™ë‹¤":"ë‹¤ë¥´ë‹¤"}<br/>

@@ -1,11 +1,11 @@
 <!-- elMethod.jsp -->
 <%@ page import = "el.ElMethod" %>
-<%@ page contentType="text/html; charset=EUC-KR"%>
+<%@ page contentType="text/html; charset=UTF-8"%>
 
-<%@ taglib prefix="m" uri="/WEB-INF/tlds/Functions.tld" %>  <!-- directive (Áö½ÃÀÚ)   taglib -->
+<%@ taglib prefix="m" uri="/WEB-INF/tlds/Functions.tld" %>  <!-- directive (ì§€ì‹œìž)   taglib -->
 <%
 		int num = 123456789;
 %>
 
-JSP ¹æ½Ä : <%=ElMethod.comma(num)%><br/>
-TLD ¹æ½Ä : ${m:comma(123456789)}    <!-- directive (Áö½ÃÀÚ)  taglib À» ÀÌ¿ëÇØ tld ÆÄÀÏÀ» ºÒ·¯¿Í Á¢µÎ»ç¿¡ ÀúÀå. -->
+JSP ë°©ì‹ : <%=ElMethod.comma(num)%><br/>
+TLD ë°©ì‹ : ${m:comma(123456789)}    <!-- directive (ì§€ì‹œìž)  taglib ì„ ì´ìš©í•´ tld íŒŒì¼ì„ ë¶ˆëŸ¬ì™€ ì ‘ë‘ì‚¬ì— ì €ìž¥. -->

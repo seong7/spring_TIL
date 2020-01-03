@@ -1,24 +1,24 @@
 <!-- array1.jsp -->
 <%@page import="java.util.ArrayList"%>
-<%@page contentType="text/html; charset=EUC-KR"%>
+<%@page contentType="text/html; charset=UTF-8"%>
 <%
-		request.setCharacterEncoding("EUC-KR");
+		request.setCharacterEncoding("UTF-8");
 		String arr[] = {"Java", "JSP", "Spring", "Andorid"};
 		pageContext.setAttribute("arr", arr);
 		
 		ArrayList<String> arr1 = new ArrayList<String>();
-		//¹è¿­¿¡ ÀÖ´Â °ªÀ» arr1¿¡ ÅõÀÔ
+		//ë°°ì—´ì— ìˆëŠ” ê°’ì„ arr1ì— íˆ¬ì…
 		for(int i=0;i<arr.length;i++){
 			arr1.add(arr[i]);
 		}
 		pageContext.setAttribute("arr1", arr1);
 		
 		
-		// arr = ¹è¿­   arr1 = ArrayList 
+		// arr = ë°°ì—´   arr1 = ArrayList 
 %>
-<b>ÇÁ·Î±×·¡¹Ö °ú¸ñ</b><hr width="250" align="left"/>
+<b>í”„ë¡œê·¸ë˜ë° ê³¼ëª©</b><hr width="250" align="left"/>
 	
-<!-- array ³ª ArrayList(collection °´Ã¼) ¸ğµÎ Ãâ·Â¹® °°À½ -->
+<!-- array ë‚˜ ArrayList(collection ê°ì²´) ëª¨ë‘ ì¶œë ¥ë¬¸ ê°™ìŒ -->
 
 1.${arr[0]} , ${arr1[0]}<br/>
 2.${arr[1]} , ${arr1[1]}<br/>

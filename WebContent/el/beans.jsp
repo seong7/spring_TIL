@@ -1,6 +1,6 @@
-<%@page contentType="text/html; charset=EUC-KR"%>
-<jsp:useBean id="bean" class="el.ELBean"/>
+<%@page contentType="text/html; charset=UTF-8"%>
+<jsp:useBean id="bean" class="el.ElBean"/>
 <jsp:setProperty property="siteName" name="bean"/>
-ºóÁî¾×¼ÇÅÂ±× : <jsp:getProperty property="siteName" name="bean"/><br/>
-Ç¥Çö½Ä : <%=bean.getSiteName()%><br/>
-EL¹æ½Ä : ${bean.siteName}
+ë¹ˆì¦ˆì•¡ì…˜íƒœê·¸ : <jsp:getProperty property="siteName" name="bean"/><br/>
+í‘œí˜„ì‹ : <%=bean.getSiteName()%><br/>
+ELë°©ì‹ : ${bean.siteName}

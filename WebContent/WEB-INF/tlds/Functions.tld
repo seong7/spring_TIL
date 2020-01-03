@@ -3,7 +3,7 @@
 	<tlib-version>1.0</tlib-version>
 	<jsp-version>2.2</jsp-version>
 	<short-name>JSPTag</short-name>
-	<function>
+	<function> <!--  function 으로 작성 -->
 		<name>comma</name>
 		<function-class>el.ElMethod</function-class>	
 		<function-signature>String comma(int)</function-signature>	

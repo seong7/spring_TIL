@@ -1,7 +1,7 @@
-<%@ page contentType="text/html; charset=EUC-KR"%>
+<%@ page contentType="text/html; charset=UTF-8"%>
 <%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core" %>
 
-<!--  ¿¹¿ÜÃ³¸®¸¦ À§ÇÑ tag (var ¿¡´Â ¿¹¿Ü ¿¡·¯ ¸Þ¼¼Áö°¡ ÀúÀåµÊ) -->
+<!--  ì˜ˆì™¸ì²˜ë¦¬ë¥¼ ìœ„í•œ tag (var ì—ëŠ” ì˜ˆì™¸ ì—ëŸ¬ ë©”ì„¸ì§€ê°€ ì €ìž¥ë¨) -->
 <c:catch var ="ex">
 <%
 		int arr[] = {1,2,3};

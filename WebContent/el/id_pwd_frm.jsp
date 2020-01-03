@@ -1,7 +1,7 @@
-<%@ page contentType="text/html; charset=EUC-KR"%>
+<%@ page contentType="text/html; charset=UTF-8"%>
 <%
-		request.setCharacterEncoding("EUC-KR");
+		request.setCharacterEncoding("UTF-8");
 		
 %>
 id: ${param.id}<br/>
-pwd: ${param["pwd"]}<br/>  <!-- À§ ¾Æ·¡ ¸ðµÎ °°À½ -->
+pwd: ${param["pwd"]}<br/>  <!-- ìœ„ ì•„ëž˜ ëª¨ë‘ ê°™ìŒ -->

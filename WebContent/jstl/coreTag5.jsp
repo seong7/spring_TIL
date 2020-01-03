@@ -1,5 +1,5 @@
-<%@ page contentType="text/html; charset=EUC-KR"%>
+<%@ page contentType="text/html; charset=UTF-8"%>
 <%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core" %>
 
 <c:redirect url="http://oracle.com"/>		
-<!--  server ¿¡¼­ ¹Ù·Î ÀÀ´äÀ» º¸³»´Â ±¸Á¶ÀÓ (Áï, µÚ·Î°¡±â·Î coreTag5.jsp ·Î ÀÌµ¿ ¾ÈµÊ) -->
+<!--  server ì—ì„œ ë°”ë¡œ ì‘ë‹µì„ ë³´ë‚´ëŠ” êµ¬ì¡°ìž„ (ì¦‰, ë’¤ë¡œê°€ê¸°ë¡œ coreTag5.jsp ë¡œ ì´ë™ ì•ˆë¨) -->

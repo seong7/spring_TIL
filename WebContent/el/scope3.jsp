@@ -1,5 +1,5 @@
 <!-- scope3.jsp -->
-<%@ page contentType="text/html; charset=EUC-KR"%>
+<%@ page contentType="text/html; charset=UTF-8"%>
 <%
 		session.setAttribute("id", "DJJUng");
 		application.setAttribute("siteName", "google.com");

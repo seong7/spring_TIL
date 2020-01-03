@@ -1,7 +1,7 @@
 <!-- empty.jsp -->
-<%@page contentType="text/html; charset=EUC-KR"%>
+<%@page contentType="text/html; charset=UTF-8"%>
 <%
-		request.setCharacterEncoding("EUC-KR");
+		request.setCharacterEncoding("UTF-8");
 		String id = request.getParameter("id");
 		if(id!=null){
 			
@@ -9,9 +9,9 @@
 			
 		}
 %>
-nameÀÇ ¿äÃ» ¿©ºÎ : ${empty param.id}<br/>
-<a href="empty.jsp?id=aaa">id°ªÀÌ ¿äÃ»</a><br/>
-<a href="empty.jsp">id°ªÀÌ ¿äÃ» ¾øÀ½</a><br/>
+nameì˜ ìš”ì²­ ì—¬ë¶€ : ${empty param.id}<br/>
+<a href="empty.jsp?id=aaa">idê°’ì´ ìš”ì²­</a><br/>
+<a href="empty.jsp">idê°’ì´ ìš”ì²­ ì—†ìŒ</a><br/>
 
 
 

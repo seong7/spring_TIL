@@ -1,14 +1,14 @@
-<%@ page contentType="text/html; charset=EUC-KR"%>
+<%@ page contentType="text/html; charset=UTF-8"%>
 <%
-		// scope µéÀÇ °øÅë ¸Þ¼Òµå : set / get Attribute µîµî
-		pageContext.setAttribute("msg", "°æÀÚ³â »õÇØ º¹ ¸¹ÀÌ ¹ÞÀ¸¼¼¿ä.");
-		  //page scopeÀÇ Å¬·¡½º : pageContext
+		// scope ë“¤ì˜ ê³µí†µ ë©”ì†Œë“œ : set / get Attribute ë“±ë“±
+		pageContext.setAttribute("msg", "ê²½ìžë…„ ìƒˆí•´ ë³µ ë§Žì´ ë°›ìœ¼ì„¸ìš”.");
+		  //page scopeì˜ í´ëž˜ìŠ¤ : pageContext
 %>
 msg : ${pageScope.msg}<br/>
-msg : ${msg}<br/>              <!-- º¯¼ö (msg) °¡ Áßº¹µÇÁö ¾Ê´Â ÇÑ À§ ¾Æ·¡ °°Àº °ª Ãâ·Â -->
+msg : ${msg}<br/>              <!-- ë³€ìˆ˜ (msg) ê°€ ì¤‘ë³µë˜ì§€ ì•ŠëŠ” í•œ ìœ„ ì•„ëž˜ ê°™ì€ ê°’ ì¶œë ¥ -->
 
 
-<!--  scope1.jsp ¿¡¼­ request¿¡ ÀúÀåÇÑ º¯¼ö sum -->
+<!--  scope1.jsp ì—ì„œ requestì— ì €ìž¥í•œ ë³€ìˆ˜ sum -->
 sum : <%= request.getAttribute("sum") %><br/>
-sum : ${requestScope.sum }<br/>   <!-- À§ ¾Æ·¡ °°À½ -->
+sum : ${requestScope.sum }<br/>   <!-- ìœ„ ì•„ëž˜ ê°™ìŒ -->
 

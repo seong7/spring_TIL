@@ -1,9 +1,9 @@
-<%@ page contentType="text/html; charset=EUC-KR"%>
+<%@ page contentType="text/html; charset=UTF-8"%>
 <%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core" %>
 
 <h2>Core Tags2</h2>
 
-<!--  if еб╠в  -->
+<!--  if М┐°Й╥╦  -->
 <c:if test="${param.id!=null }">
 	<b>${param.id }</b>
 </c:if>
@@ -13,19 +13,19 @@
 
 <c:choose>
 	<c:when test="${param.color=='yellow' }">
-		<c:set var="c" value="ЁК╤У╩Ж"/>
+		<c:set var="c" value="К┘╦К·─Л┐┴"/>
 	</c:when>
 	<c:when test="${param.color=='blue' }">
-		<c:set var="c" value="фд╤У╩Ж"/>
+		<c:set var="c" value="М▄▄К·─Л┐┴"/>
 	</c:when>
 	<c:when test="${param.color=='orange' }">
-		<c:set var="c" value="©ю╥╩аЖ╩Ж"/>
+		<c:set var="c" value="Л≤╓К═▄Л╖─Л┐┴"/>
 	</c:when>
 	<c:when test="${param.color=='pink' }">
-		<c:set var="c" value="гне╘╩Ж"/>
+		<c:set var="c" value="М∙▒М│╛Л┐┴"/>
 	</c:when>
 	<c:otherwise>
-		<c:set var="c" value="╨М╥╒"/>
+		<c:set var="c" value="К╦■К·≥"/>
 	</c:otherwise>
 </c:choose>	
-╢тюл аа╬фго╢б ╩Ж╩Сю╨ <font color="${param.color }">${c}</font>ют╢о╢ы.
+К▀≤Л²╢ Л╒▀Л∙└М∙≤К┼■ Л┐┴Л┐│Л²─ <font color="${param.color }">${c}</font>Л·┘К▀┬К▀╓.

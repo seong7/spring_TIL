@@ -1,11 +1,11 @@
 <!-- el1.jsp -->
-<%@ page contentType="text/html; charset=EUC-KR"%>
+<%@ page contentType="text/html; charset=UTF-8"%>
 <%
-		request.setCharacterEncoding("EUC-KR");
-		// ΐϊΐεΌÒ : page, request, session, application
+		request.setCharacterEncoding("UTF-8");
+		// μ €μ¥μ† : page, request, session, application
 		
 		request.setAttribute("siteName", "JSPStudy.co.kr");
 %>
 
-»ηΐΜΖ®Έν : <%=request.getAttribute("siteName")%><br/>
-»ηΐΜΖ®Έν: ${siteName}<br/>
+μ‚¬μ΄νΈλª… : <%=request.getAttribute("siteName")%><br/>
+μ‚¬μ΄νΈλª…: ${siteName}<br/>

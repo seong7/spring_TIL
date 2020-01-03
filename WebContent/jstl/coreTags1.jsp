@@ -1,28 +1,28 @@
 <!--   coreTags1.jsp   -->
-<%@page contentType="text/html; charset=EUC-KR"%>
+<%@page contentType="text/html; charset=UTF-8"%>
 <%@taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core"%>
  <!--  
- 		prefix ´Â °³¹ßÀÚ ÀÚÀ¯Áö¸¸ °ü·ÊÀûÀ¸·Î coreTag ´Â  'c' ·Î Á¤ÇÑ´Ù. 
- 		 uri : °íÁ¤ 
+ 		prefix ëŠ” ê°œë°œìž ìžìœ ì§€ë§Œ ê´€ë¡€ì ìœ¼ë¡œ coreTag ëŠ”  'c' ë¡œ ì •í•œë‹¤. 
+ 		 uri : ê³ ì • 
  -->
  
 <%
-		request.setCharacterEncoding("EUC-KR");
-		String str1 = "JavaÀÇ JSTL";
+		request.setCharacterEncoding("UTF-8");
+		String str1 = "Javaì˜ JSTL";
 		String str2 = null;
 %>
 
 <h2>Core Tags1</h2>
 
-<!--  4°³ÀÇ ÀúÀå¼Ò¿¡ º¯¼ö¸¦ ¼±¾ð  -->
+<!--  4ê°œì˜ ì €ìž¥ì†Œì— ë³€ìˆ˜ë¥¼ ì„ ì–¸  -->
 <c:set var="str3" value="JSPStudy" scope="page"/>
 <c:set var="str4" value="JSTL" scope="session"/>
 
-<!--  º¯¼öÀÇ Ãâ·Â -->
-- <c:out value="<%=str1 %>" default = "±âº»°ª Ãâ·Â"/><br/>
-- <c:out value="<%=str2 %>" default = "±âº»°ª Ãâ·Â"/><br/>
+<!--  ë³€ìˆ˜ì˜ ì¶œë ¥ -->
+- <c:out value="<%=str1 %>" default = "ê¸°ë³¸ê°’ ì¶œë ¥"/><br/>
+- <c:out value="<%=str2 %>" default = "ê¸°ë³¸ê°’ ì¶œë ¥"/><br/>
 
-<!--  º¯¼ö¸¦ ÀúÀå¼Ò¿¡¼­ »èÁ¦  -->
+<!--  ë³€ìˆ˜ë¥¼ ì €ìž¥ì†Œì—ì„œ ì‚­ì œ  -->
 <c:remove var="str4"/>
 <%String s = (String)pageContext.getAttribute("str3");%>
 <font color="red">- <%=s %></font>

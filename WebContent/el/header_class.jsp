@@ -1,7 +1,7 @@
-<%@ page contentType="text/html; charset=EUC-KR"%>
+<%@ page contentType="text/html; charset=UTF-8"%>
 <%
-		request.setCharacterEncoding("EUC-KR");
+		request.setCharacterEncoding("UTF-8");
 %>
-È£½ºÆ®¸í : ${header.host}<br/>
-»ç¿ëºê¶ó¿ìÀú : ${header["user-agent"]}<br/>
-»ç¿ë¾ğ¾î : ${header["accept-language"]}<br/>
+í˜¸ìŠ¤íŠ¸ëª… : ${header.host}<br/>
+ì‚¬ìš©ë¸Œë¼ìš°ì € : ${header["user-agent"]}<br/>
+ì‚¬ìš©ì–¸ì–´ : ${header["accept-language"]}<br/>

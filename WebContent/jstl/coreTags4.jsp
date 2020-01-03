@@ -1,4 +1,4 @@
-<%@ page contentType="text/html; charset=EUC-KR"%>
+<%@ page contentType="text/html; charset=UTF-8"%>
 <%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core" %>
 
 <h2>Core Tags4</h2>
@@ -15,4 +15,4 @@
 	<c:param name="q" value="jsp"/>
 	<c:param name="safe" value="off"/>
 </c:url>
-<a href="${url1 }">±¸±Û¿¡¼­ jsp °Ë»ö</a>
+<a href="${url1 }">êµ¬ê¸€ì—ì„œ jsp ê²€ìƒ‰</a>

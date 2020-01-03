@@ -4,7 +4,7 @@ import java.text.DecimalFormat;
 
 public class ElMethod {
 
-	// ±Ý¾× 
+	// ê¸ˆì•¡ 
 	public static String comma(int num) {
 		DecimalFormat df = new DecimalFormat("#,##0");
 		return df.format(num);
